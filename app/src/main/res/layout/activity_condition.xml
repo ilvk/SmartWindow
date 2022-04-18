@@ -4,13 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/get_data"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="get_data"
-        tools:ignore="MissingConstraints" />
+    tools:context=".ui.condition.ConditionActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
