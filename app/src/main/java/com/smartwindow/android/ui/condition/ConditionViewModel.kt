@@ -6,13 +6,13 @@ import java.util.*
 
 class ConditionViewModel: ViewModel() {
 
-    val conditionLiveData = Repository.refreshCondition()
+    var conditionLiveData = Repository.refreshCondition()
 
     fun refreshCondition() {
         val timer = Timer()
         val task = object : TimerTask() {
             override fun run() {
-                val conditionLiveData = Repository.refreshCondition()
+                conditionLiveData = Repository.refreshCondition()
             }
         }
         timer.schedule(task, 2000, 1000)

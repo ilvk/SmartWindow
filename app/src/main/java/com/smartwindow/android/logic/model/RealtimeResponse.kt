@@ -7,4 +7,6 @@ data class RealtimeResponse(val shidu: Float,
                             val kongqi: Float,
                             val chuangzi: Float,
                             val guangzhao: Float,
-                            val personnear: Float)
+                            val personnear: Float){
+
+}
