@@ -10,7 +10,7 @@ import retrofit2.http.POST
 
 interface ConditionService {
 
-    @GET("http://124.223.64:50051")  //http://124.223.64:50051
+    @GET("http://124.223.64.148:50051")  //http://124.223.64:50051
     fun getRealtimeCondition():
             Call<RealtimeResponse>
 
